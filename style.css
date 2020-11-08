@@ -1,0 +1,34 @@
+body {
+  background-color: rgb(94, 48, 94, 0.6);
+  font-family: "Arial", sans-serif;
+}
+
+.wrapper {
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(94, 48, 94, 1);
+  background-color:  rgba(94, 48, 94, 0.7);
+  border: 5px solid rgba(119, 61, 119, 0.2);
+  max-width: 350px;
+  padding: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.currencyForm input, select, button {
+  padding: 9px 9px;
+  background-color: rgba(94, 48, 94, 0.7);
+  border: none;
+  box-shadow: inset 0 0 5px rgb(80, 40, 80);
+  border-radius: 10px;
+}
+
+.currencyForm input, select, button {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.info {
+  font-size: 20px;
+  margin-bottom: 0;
+}

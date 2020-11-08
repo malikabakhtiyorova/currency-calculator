@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <h1>Currency calculator</h1>
+
+    <form class="currencyForm" method="POST" action="https://echo.htmlacademy.ru">
+      <input class="summa" id="summa" type="number" required name="summa">
+      <select required name="currencyType" class="currency" id="currency" required>
+        <option selected value="0" value="">Currency</option>
+        <option value="9500">USD</option>
+        <option value="12000">Dinor</option>
+        <option value="15000">Dirham</option>
+        <option value="2000">Rubl</option>
+      </select>
+      <button class="btn" type="submit">O'girish</button>
+    </form>
+
+    <p class="info"> Mablag' (so'mda):</p>
+    <p class="info paragraph"></p>
+  </div>
+
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>
